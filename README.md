@@ -162,7 +162,8 @@ requests.get(
 
 > 🖼️ **【截图 3｜必须】** 这里放 adspower.png，用 AdsPower 环境 + Playwright 接管访问 bot.sannysoft.com 的结果，可跟截图 1、2 对比。
 
-> 🖼️ **【截图 4｜建议】** 这里放 AdsPower 客户端界面，环境列表或某个环境的指纹配置页，可圈出 profile ID 对应代码里的 user_id。
+<img width="1370" height="762" alt="image" src="https://github.com/user-attachments/assets/34dc75ee-1a93-4aec-828b-47bb0c92e0be" />
+
 
 ## 多账号场景，插件方案彻底失效的地方
 
@@ -196,8 +197,6 @@ with sync_playwright() as p:
 这样每个账号在网站看来都是一台独立设备、一个独立用户，不会因为指纹相同被关联。
 
 这是插件方案做不到的。插件能让一个浏览器看起来不像机器人，但没法让多个账号看起来像多个不同的人。
-
-> 🖼️ **【截图 5｜建议】** 这里放 AdsPower 里多个环境同时运行的样子，或多个环境指纹各不相同的对比，直观展示多账号独立。
 
 ## 行为层，没有任何工具能替你解决
 
