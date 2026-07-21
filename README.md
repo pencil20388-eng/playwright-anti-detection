@@ -70,7 +70,7 @@ with sync_playwright() as p:
 
 打开 before.png，你会看到几项标红。典型的是 WebDriver 那一项直接暴露，User-Agent 里带着 HeadlessChrome 字样，一眼就是自动化。
 
-> 🖼️ **【截图 1｜必须】** 这里放 before.png，未处理的 Playwright 访问 bot.sannysoft.com 的结果，红框圈出 WebDriver、User Agent 等未通过的项。
+<img width="1440" height="7273" alt="image" src="https://github.com/user-attachments/assets/d8f75749-74c9-463b-aac9-0616a333c6b9" />
 
 ## 插件方案，playwright-stealth 能做什么
 
@@ -101,7 +101,7 @@ with sync_playwright() as p:
 
 再看 after.png，之前标红的几项通常会转绿。
 
-> 🖼️ **【截图 2｜必须】** 这里放 after.png，加了 playwright-stealth 之后同一个页面的结果，跟截图 1 对比，圈出转绿的项。
+<img width="1440" height="7654" alt="image" src="https://github.com/user-attachments/assets/7d82cacb-00ef-487e-9c7f-a3fe0ef06497" />
 
 对付基础的反爬检测，到这一步通常够用了。**但也就到这里了。**
 
