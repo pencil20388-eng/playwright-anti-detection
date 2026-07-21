@@ -160,7 +160,7 @@ requests.get(
 
 因为这里的浏览器本身就是一个真实的指纹环境，检测页那些项会自然通过，不需要额外伪装。而你的 Playwright 代码几乎原样保留，只是把自己启动浏览器换成了接管已有环境。
 
-> 🖼️ **【截图 3｜必须】** 这里放 adspower.png，用 AdsPower 环境 + Playwright 接管访问 bot.sannysoft.com 的结果，可跟截图 1、2 对比。
+<img width="1567" height="8549" alt="image" src="https://github.com/user-attachments/assets/410adb66-67e8-49ed-be56-a407e1361af6" />
 
 <img width="1370" height="762" alt="image" src="https://github.com/user-attachments/assets/34dc75ee-1a93-4aec-828b-47bb0c92e0be" />
 
